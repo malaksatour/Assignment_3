@@ -59,12 +59,3 @@ cmake -S . -B build
 cmake --build build
 ctest --test-dir build --output-on-failure
 ```
-
-If CMake reports that GoogleTest is missing, install GoogleTest or copy the `Code` files into the course-provided project that already includes GoogleTest.
-
-## Assumptions and Notes
-
-- The graph is directed.
-- Edge weights are non-negative because Dijkstra's algorithm requires non-negative weights.
-- Vertices are indexed from `0` to `n - 1`.
-- `Graph::INF` means no path exists between two vertices.
