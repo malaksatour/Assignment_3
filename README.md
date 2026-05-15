@@ -68,4 +68,3 @@ If CMake reports that GoogleTest is missing, install GoogleTest or copy the `Cod
 - Edge weights are non-negative because Dijkstra's algorithm requires non-negative weights.
 - Vertices are indexed from `0` to `n - 1`.
 - `Graph::INF` means no path exists between two vertices.
-- The repository must be pushed to GitHub and submitted on Canvas as requested in the assignment PDF.
